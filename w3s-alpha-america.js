@@ -5,6 +5,8 @@ https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_body
 https://kjrm209.github.io/w3schools/w3s-js-whereto.html
 */
 
+/* Test 1 2 3. Delete me later. */
+
 function mysecondFunction() {
     document.getElementById("script-body-change-paragraph").innerHTML = "The Secondary Paragraph Is Changed."
 }
