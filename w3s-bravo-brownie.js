@@ -47,3 +47,20 @@ for (i = 0; i < flen; i++) {
 text += "</ul>"
 
 document.getElementById("array-loop").innerHTML = text
+
+//
+
+/*
+// JavaScript Examples - JavaScript Arrays - Add An Element To an Array 
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_add
+
+https://kjrm209.github.io/w3schools/w3s-bravo-arrays.html
+*/
+
+var fruits = ["Banana", "Papaya", "Orange", "Apple"]
+document.getElementById("lemon-squeeze").innerHTML = fruits
+
+function myLemonade() {
+    fruits[fruits.length] = "Lemonade"
+    document.getElementById("lemon-squeeze").innerHTML = fruits
+}
