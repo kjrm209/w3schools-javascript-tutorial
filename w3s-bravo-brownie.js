@@ -64,3 +64,20 @@ function myLemonade() {
     fruits[fruits.length] = "Lemonade"
     document.getElementById("lemon-squeeze").innerHTML = fruits
 }
+
+//
+
+/*
+// JavaScript Examples ~ JavaScript Array Sort ~ Sort an array in ascending order
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_sort
+
+https://kjrm209.github.io/w3schools/w3s-bravo-array-sort.html
+*/
+
+var fruits = ["Banana", "Apple", "Grape", "Pineapple"]
+document.getElementById("alphabets-ascend").innerHTML = fruits
+
+function myAlphabet() {
+    fruits.sort()
+    document.getElementById("alphabets-ascend").innerHTML = fruits
+}
