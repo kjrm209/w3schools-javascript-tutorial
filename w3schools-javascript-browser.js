@@ -1,3 +1,15 @@
+/* W3Schools ~ JavaScript 
+
+JS Examples ~ JS Browser
+https://www.w3schools.com/js/js_ex_browser.asp
+
+
+JS Browser ~ Timing ~ A clock created with a timing event
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock
+
+*/
+
+
 function startTime() {
     var today = new Date()
     var h = today.getHours()
