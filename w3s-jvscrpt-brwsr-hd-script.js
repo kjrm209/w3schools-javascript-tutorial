@@ -1,3 +1,14 @@
+// Do Not Remove !
+/* w3s-jvscrpt-brwsr-index.html
+https://kjrm209.github.io/w3schools/w3s-jvscrpt-brwsr-index.html
+*/
+
+// Do Not Remove !
+/* w3s-jvscrpt-brwsr-index.html
+https://kjrm209.github.io/w3schools/w3s-jvscrpt-brwsr-index.html
+*/
+
+
 /* W3Schools ~ JavaScript 
 
 JS Examples ~ JS Browser
