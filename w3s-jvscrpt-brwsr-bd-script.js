@@ -38,7 +38,7 @@ function myTimeout2() {
 }
 
 function myTimeout3() {
-    document.getElementById('text-variable').innerHTML = "6 seconds have passed."
+    document.getElementById('text-variable').innerHTML = "6 seconds have passed. You may now reload the page to - once more - apply this paragraph's test."
 }
 //
 //
