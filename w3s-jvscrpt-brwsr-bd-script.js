@@ -49,6 +49,6 @@ https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_infinite
 
 var c = 0
 
-function myInfiniteCounter() {
+function myCounter() {
     document.getElementById("infinite-counter").innerHTML = ++c
 }
