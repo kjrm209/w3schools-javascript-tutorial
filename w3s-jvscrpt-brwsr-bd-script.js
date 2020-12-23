@@ -43,3 +43,12 @@ function myTimeout3() {
 //
 //
 //
+/* JS Browser ~ Timing ~ Timing event in an infinite loop
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_infinite
+*/
+
+var c = 0
+
+function myInfiniteCounter() {
+    document.getElementById("infinite-counter"). innerHTML = ++c
+}
