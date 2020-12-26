@@ -9,10 +9,19 @@ https://www.w3schools.com/js/js_ex_browser.asp
 //
 //
 //
+/*  JS Browser ~ Location Object ~ Return the path name of the current URL
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_loc_href
+*/
+//
+document.getElementById("full-url").innerHTML = 
+" The full URL of htis page is:<br>" + window.location.href
+//
+//
+//
 /*  JS Browser ~ Timing ~ Simple Timing
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
 */
-
+//
 function myGreetings() {
     alert("Hello!")
 }
@@ -22,7 +31,7 @@ function myGreetings() {
 /*  JS Browser ~ Timing ~ Another Simple Timing
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing2
 */
-
+//
 function timedText() {
     setTimeout(myTimeout1, 2000)
     setTimeout(myTimeout2, 4000)
@@ -38,17 +47,21 @@ function myTimeout2() {
 }
 
 function myTimeout3() {
-    document.getElementById('text-variable').innerHTML = "6 seconds have passed. You may now reload the page to - once more - apply this paragraph's test."
+    document.getElementById('text-variable').innerHTML
+    = "6 seconds have passed. You may now reload the <br> page to - once more - apply this paragraph's test."
 }
 //
 //
 //
-/* JS Browser ~ Timing ~ Timing event in an infinite loop
+/*  JS Browser ~ Timing ~ Timing event in an infinite loop
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_infinite
 */
-
+//
 var c = 0
 
-function myInfiniteCounter() {
+function myCounter() {
     document.getElementById("infinite-counter").innerHTML = ++c
 }
+//
+//
+//
