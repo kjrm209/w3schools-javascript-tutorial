@@ -33,7 +33,7 @@ function checkTime(i) {
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_history_back
 */
 
-function previousPage() {
+function pagePrevious() {
     window.history.back()
 }
 
@@ -43,6 +43,6 @@ function previousPage() {
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_history_forward 
 */
 
-function nextPage() {
+function pageNext() {
     windows.history.forward()
 }
