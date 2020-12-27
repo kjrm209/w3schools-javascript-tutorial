@@ -39,10 +39,19 @@ function pagePrevious() {
 
 
 
-/*JS Browser ~ History Object ~ Create a back button on a page
+/*  JS Browser ~ History Object ~ Create a back button on a page
 https://www.w3schools.com/js/tryit.asp?filename=tryjs_history_forward 
 */
 
 function pageNext() {
     window.history.forward()
+}
+
+
+/*  JS Browser ~ Window Object ~ Open a new window and control its appearance
+https://www.w3schools.com/js/tryit.asp?filename=tryjs_openallwindow
+*/
+
+function openWin() {
+    window.open("https://www.facebook.com","_blank", "toolbar=yes, location=yes, directories=no, status=no,menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400")
 }
