@@ -14,7 +14,7 @@ https://www.w3schools.com/js/tryit.asp?filename=tryjs_loc_href
 */
 //
 document.getElementById("full-url").innerHTML = 
-" <b> Please find appended below this statement is the <br> full-length Uniform Resource Locator ('URL') <br> of this <i> Hyper Text Markup Language </i> document:- </b><br>" + window.location.href
+" <b> Please find appended below this statement is <br> the full-length <i> Uniform Resource Locator </i><br> ('URL') of this <i> Hyper Text Markup Language </i><br> ('HTML') document:- </b><br>" + window.location.href
 //
 //
 //
